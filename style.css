@@ -1,0 +1,102 @@
+:root{
+    --primary-color: #5fbaa7;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: var(--primary-color);
+    margin: 30px 0px;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+#currency-one{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background: transparent;
+}
+
+#amount-one{
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.currency{
+    display: flex;   
+}
+
+#currency-two{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background: transparent;
+}
+
+#amount-two{
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#swap{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    font-weight: bold;
+}
+
+#swap:hover{
+    background-color: white;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.money-img{
+    width: 150px;
+}
+
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swap-rate-container #rate{
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
